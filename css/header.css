@@ -1,0 +1,26 @@
+.header {
+    min-height: 10vh;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lista-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+  }
+  .item-menu {
+    padding: 10px 15px;
+  }
+  .link-menu {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+  }
+  .link-menu:hover,.link-carrossel:hover {background-color: rgb(255, 255, 169);}
+      #icone-menu{
+        font-size: 2rem;
+        display: none;
+      }
